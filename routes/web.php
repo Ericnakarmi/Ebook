@@ -13,9 +13,7 @@ use App\Http\Controllers\FormController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::view('/', 'welcome');
 
 Route::get('registers/login', 'FormController@login');
 Route::resource('registers', 'RegisterController');
