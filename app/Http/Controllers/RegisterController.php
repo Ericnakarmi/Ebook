@@ -13,9 +13,14 @@ class RegisterController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $req)
     {
-        //
+        $req->validate([
+            'email' => 'required',
+            'password' =>'required'
+
+        ])
+        return $req-> input();
     }
 
     /**
