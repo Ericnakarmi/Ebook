@@ -12,15 +12,25 @@
 <!-- <div id="templatemo_container"> -->
 	<div id="templatemo_menu">
     	<ul>
+        
             <li><a href="index.html" class="current">Home</a></li>
             <li><a href="subpage.html">Search</a></li>
             <li><a href="subpage.html">Books</a></li>            
             <li><a href="subpage.html">New Releases</a></li>  
             <li><a href="#">Company</a></li> 
             <li><a href="#">Contact</a></li>
+        
+            
+       
     	</ul>
+        <div class="search">
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+        </div>        
     </div> <!-- end of menu -->
-    
+            
     <div id="templatemo_header">
     	<div id="templatemo_special_offers">
         	<p>
@@ -47,15 +57,15 @@
         	<div class="templatemo_content_left_section">
             	<h1>Categories</h1>
                 <ul>
-                    <li><a href="subpage.html">Donec accumsan urna</a></li>
-                    <li><a href="subpage.html">Proin vulputate justo</a></li>
-                    <li><a href="#">In sed risus ac feli</a></li>
-                    <li><a href="#">Aliquam tristique dolor</a></li>
-                    <li><a href="#">Maece nas metus</a></li>
-                    <li><a href="#">Sed pellentesque placerat</a></li>
-                    <li><a href="#">Suspen disse</a></li>
-                    <li><a href="#">Maece nas metus</a></li>
-                    <li><a href="#">In sed risus ac feli</a></li>
+                    <li><a href="subpage.html">Horror</a></li>
+                    <li><a href="subpage.html">Mystery</a></li>
+                    <li><a href="#">Thriller</a></li>
+                    <li><a href="#">Drama</a></li>
+                    <li><a href="#">Romance</a></li>
+                    <li><a href="#">Supernatural</a></li>
+                    <li><a href="#">Sci-fi</a></li>
+                    <li><a href="#">Historical</a></li>
+                    <li><a href="#">Modern</a></li>
             	</ul>
             </div>
 			<div class="templatemo_content_left_section">
